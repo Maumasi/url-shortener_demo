@@ -4,7 +4,7 @@ $(function(){
 	
 	$.ajax({
 		type: 'GET',
-		url: 'localhost:3000/api/v1/newlink',
+		url: 'http://http://localhost:3000/api/v1/status',
 		success: function(data) {
 			console.log('success ', data);
 		}
